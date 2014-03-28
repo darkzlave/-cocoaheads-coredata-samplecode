@@ -21,7 +21,7 @@
     team.country = country[randomCountry];
     [self save];
     return team;
-}
+}`
 -(FootballTeam*) gimmeRandomTeam{
     NSManagedObjectContext *context = [StoreManager sharedStoreManager].managedObjectContext;
     NSFetchRequest *myRequest = [[NSFetchRequest alloc] init];
